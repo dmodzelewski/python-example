@@ -5,3 +5,7 @@ python:
 - 3.4
 - 3.9
 script: py.test -v
+env:
+  zmienna : "testowa zmienna"
+before_install:
+  - print("raz")
