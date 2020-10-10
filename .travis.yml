@@ -3,9 +3,9 @@ sudo: false
 python:
 - 2.7
 - 3.4
-- 3.9
+- 3.6
 script: py.test -v
 env:
   zmienna : "testowa zmienna"
-before_install:
+before_script:
   - echo -e "moja zmienna $zmienna"
