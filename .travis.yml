@@ -8,4 +8,4 @@ script: py.test -v
 env:
   zmienna : "testowa zmienna"
 before_install:
-  - print("raz")
+  - echo -e "moja zmienna $zmienna"
