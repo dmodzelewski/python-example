@@ -12,7 +12,7 @@ def say_what():
 
 def main():
     hello(say_what())
-    print(testowanie)
+    print("sds")
     return 0
 
 
